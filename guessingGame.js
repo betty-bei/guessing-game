@@ -1,7 +1,6 @@
 (function() {
 
 	/* **** Global Variables **** */
-
 	var playersGuess,
 	    winningNumber = generateWinningNumber(),
 	    prevGuessesArray = [],
@@ -123,6 +122,7 @@
 		};
 		return false;
 	}
+
 
 	/* **** Event Listeners/Handlers ****  */
 
