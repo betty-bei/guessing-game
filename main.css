@@ -1,5 +1,5 @@
 body {
-	width: 350px;
+	width: 500px;
 	margin: 50px auto;
 	text-align: center;
 }
@@ -11,7 +11,7 @@ body {
 	color: red;
 }
 
-.inputGuess {
+#inputGuess {
 	height: 50px;
 	width: 200px;
 	border-radius: 6px;
@@ -36,34 +36,33 @@ button {
 	margin: 20px 5px;
 	padding: 5px 1px;
 
-	font-size: 10px;
+	font-size: 12px;
 	color: #fff;
 	
-
 	transition-property: width, height, background-color, font-size;
-	transition-duration: 2s, 2s, 2s, 2s;
+	transition-duration: 1.5s, 1.5s, 1.5s, 1.5s;
 
 	display: block;
 }
 
 button:hover {
-	width:100px;
-	height: 100px;
-	font-size: 24px;
+	width:60px;
+	height: 60px;
+	font-size: 14px;
 }
 
 #hint {
 	background-color: red;
-	margin-left: 90px;
+	margin-left: 165px;
 }
 
-#hint:hover {
+/*#hint:hover {
 	background-color: lightpink;
 	width:150px;
 	height:150px;
 	font-size: 36px;
 }
-
+*/
 #submit {
 	background-color: lightskyblue;
 }
@@ -78,4 +77,24 @@ button:hover {
 
 #playAgain:hover {
 	background-color: red;
+}
+
+.helpBox {
+	width: 400px;
+	height: 50px;
+
+	margin-left:auto;
+	margin-right:auto;
+
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+
+#box1 {
+	margin-top: 100px;
+}
+
+#box2 {
+	margin-top: 20px;
+	color: red;
 }
